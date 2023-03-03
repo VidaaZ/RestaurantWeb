@@ -11,7 +11,7 @@ using RestaurantWeb.Data;
 namespace RestaurantWeb.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230302224425_addCategoryToDb")]
+    [Migration("20230302234108_addCategoryToDb")]
     partial class addCategoryToDb
     {
         /// <inheritdoc />
