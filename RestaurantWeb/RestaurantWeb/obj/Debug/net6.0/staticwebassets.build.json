@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YSibtXeqYF4DbLNm+wd4UbWNTUiKB7AuERkPzC7Odaw=",
+  "Hash": "aib+L/C9CAmztChcO0cYuRvB7OecNFUdFbX16uS1ek4=",
   "Source": "RestaurantWeb",
   "BasePath": "_content/RestaurantWeb",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\RestaurantWeb\\RestaurantWeb\\RestaurantWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RestaurantWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "F:\\RestaurantWeb\\RestaurantWeb\\RestaurantWeb\\wwwroot\\css\\bootswatch_cyborg.css",
+      "SourceId": "RestaurantWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\RestaurantWeb\\RestaurantWeb\\RestaurantWeb\\wwwroot\\",
+      "BasePath": "_content/RestaurantWeb",
+      "RelativePath": "css/bootswatch_cyborg.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatch_cyborg.css"
     },
     {
       "Identity": "F:\\RestaurantWeb\\RestaurantWeb\\RestaurantWeb\\wwwroot\\css\\site.css",
