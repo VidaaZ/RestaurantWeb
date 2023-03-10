@@ -1,0 +1,17 @@
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\bin\Debug\net6.0\Restaurant.DataAccess.deps.json
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\bin\Debug\net6.0\Restaurant.DataAccess.dll
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\bin\Debug\net6.0\Restaurant.DataAccess.pdb
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\bin\Debug\net6.0\Restaurant.Models.dll
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\bin\Debug\net6.0\Restaurant.Models.pdb
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\obj\Debug\net6.0\Restaurant.DataAccess.csproj.AssemblyReference.cache
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\obj\Debug\net6.0\Restaurant.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\obj\Debug\net6.0\Restaurant.DataAccess.AssemblyInfoInputs.cache
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\obj\Debug\net6.0\Restaurant.DataAccess.AssemblyInfo.cs
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\obj\Debug\net6.0\Restaurant.DataAccess.csproj.CoreCompileInputs.cache
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\obj\Debug\net6.0\Restaurant.DataAccess.csproj.CopyComplete
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\obj\Debug\net6.0\Restaurant.DataAccess.dll
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\obj\Debug\net6.0\refint\Restaurant.DataAccess.dll
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\obj\Debug\net6.0\Restaurant.DataAccess.pdb
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\obj\Debug\net6.0\ref\Restaurant.DataAccess.dll
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\bin\Debug\net6.0\Restaurant.DataAccess.runtimeconfig.json
+F:\RestaurantWeb\RestaurantWeb\Restaurant.DataAccess\obj\Debug\net6.0\Restaurant.DataAccess.genruntimeconfig.cache

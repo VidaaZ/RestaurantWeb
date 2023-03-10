@@ -1,0 +1,12 @@
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\bin\Debug\net6.0\Restaurant.Utility.deps.json
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\bin\Debug\net6.0\Restaurant.Utility.dll
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\bin\Debug\net6.0\Restaurant.Utility.pdb
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\Restaurant.Utility.csproj.AssemblyReference.cache
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\Restaurant.Utility.GeneratedMSBuildEditorConfig.editorconfig
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\Restaurant.Utility.AssemblyInfoInputs.cache
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\Restaurant.Utility.AssemblyInfo.cs
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\Restaurant.Utility.csproj.CoreCompileInputs.cache
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\Restaurant.Utility.dll
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\refint\Restaurant.Utility.dll
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\Restaurant.Utility.pdb
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\ref\Restaurant.Utility.dll

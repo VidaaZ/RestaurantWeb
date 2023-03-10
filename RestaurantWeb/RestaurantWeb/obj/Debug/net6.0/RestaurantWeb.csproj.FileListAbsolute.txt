@@ -80,3 +80,7 @@ F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\bin\Debug\net6.0\runtimes\win\lib\n
 F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\obj\Debug\net6.0\RestaurantWeb.csproj.CopyComplete
+F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\bin\Debug\net6.0\Restaurant.DataAccess.dll
+F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\bin\Debug\net6.0\Restaurant.Models.dll
+F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\bin\Debug\net6.0\Restaurant.DataAccess.pdb
+F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\bin\Debug\net6.0\Restaurant.Models.pdb

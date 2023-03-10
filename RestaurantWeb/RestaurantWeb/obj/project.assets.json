@@ -1060,6 +1060,31 @@
             "rid": "win"
           }
         }
+      },
+      "Restaurant.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0-preview.1.23111.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.1.23111.4",
+          "Restaurant.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Restaurant.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.DataAccess.dll": {}
+        }
+      },
+      "Restaurant.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Restaurant.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.Models.dll": {}
+        }
       }
     }
   },
@@ -2909,13 +2934,24 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Restaurant.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.DataAccess/Restaurant.DataAccess.csproj",
+      "msbuildProject": "../Restaurant.DataAccess/Restaurant.DataAccess.csproj"
+    },
+    "Restaurant.Models/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.Models/Restaurant.Models.csproj",
+      "msbuildProject": "../Restaurant.Models/Restaurant.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 8.0.0-preview.1.23111.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-preview.1.23111.4",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.0-preview.1.23111.4"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.0-preview.1.23111.4",
+      "Restaurant.DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2944,7 +2980,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\RestaurantWeb\\RestaurantWeb\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj": {
+              "projectPath": "F:\\RestaurantWeb\\RestaurantWeb\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
