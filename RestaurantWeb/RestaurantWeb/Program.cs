@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Restaurant.DataAccess.Data;
+using Restaurant.DataAccess.Repository;
+using Restaurant.DataAccess.Repository.IRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();//Registering CategoryRepository in our dependency injection container
 
 var app = builder.Build();
 
