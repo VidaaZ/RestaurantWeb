@@ -25,8 +25,8 @@ namespace Restaurant.DataAccess.Repository
         {
             var objFromDb = _db.MenuItem.FirstOrDefault(u => u.Id == menuItem.Id); //retrive category object from database
             objFromDb.Name = menuItem.Name;
-            objFromDb.Price = menuItem.Price;
             objFromDb.Description = menuItem.Description;
+            objFromDb.Price = menuItem.Price;
             objFromDb.CategoryId = menuItem.CategoryId;
             objFromDb.FoodTypeId = menuItem.FoodTypeId;
             if (objFromDb.Image != null)

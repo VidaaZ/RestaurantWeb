@@ -1,0 +1,76 @@
+﻿@page
+@model RestaurantWeb.Pages.Admin.MenuItems.UpsertModel
+
+<form method="post" enctype="multipart/form-data">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <div class=" col-9">
+            <h2 class="text-primary pl-3">
+                @(Model.MenuItem.Id!=0 ?"Update":"Create") MenuItem
+                </h2>
+            <hr />
+        </div>
+       @* <div asp-validation-summary="All"></div>*@
+        <div class="mb-3">
+            <label asp-for="MenuItem.Name"></label>
+            <input asp-for="MenuItem.Name" class="form-control" />
+            <span asp-validation-for="MenuItem.Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="MenuItem.Description"></label>
+            <textarea asp-for="MenuItem.Description" class="form-control" ></textarea> @*we use textarea to have more space for typing description*@
+            <span asp-validation-for="MenuItem.Description" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="MenuItem.Price"></label>
+            <input asp-for="MenuItem.Price" class="form-control" />
+            <span asp-validation-for="MenuItem.Price" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="MenuItem.Image"></label>
+            <input type="file" name="files" id="uploadBox" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="MenuItem.CategoryId"></label>
+            <select asp-for="MenuItem.CategoryId" asp-items="Model.CategoryList" class="form-select">
+                <option disabled selected>--Select Category--</option>
+            </select>
+            
+            <span asp-validation-for="MenuItem.CategoryId" class="text-danger"></span>
+           
+        </div>
+        <div class="mb-3">
+            <label asp-for="MenuItem.FoodTypeId"></label>
+            <select asp-for="MenuItem.FoodTypeId" asp-items="Model.FoodTypeList" class="form-select">
+                <option disabled selected>--Select FoodType--</option>
+            </select>
+
+            <span asp-validation-for="MenuItem.FoodTypeId" class="text-danger"></span>
+            </div>
+
+        </div>
+        <div class="col-3">
+            @if (Model.MenuItem.Id !=0){
+                <img src="@Model.MenuItem.Image"width="100%" style="border-radius:5px;border:1px solid #bbb9b9"/>
+            }
+        </div>
+       </div>
+        <button type="submit" class="btn btn-primary" style="width:150px;"> @(Model.MenuItem.Id != 0 ? "Update" : "Create") </button>
+        <a asp-page="Index" class="btn btn-secondary" style="width:150px;">Back To List</a>
+    </div>
+</form>
+
+@section Scripts{ 
+    @*this section is created to use client side validation of _ValidationScriptsPartial.cshtml*@
+    <script>  /*this Script is for RichtextBox*/
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
+        });
+    </script>
+    
+@{
+        <partial name="_ValidationScriptsPartial" />  
+    }
+    }

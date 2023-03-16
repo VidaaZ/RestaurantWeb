@@ -1,6 +1,8 @@
 ﻿@page
 @model RestaurantWeb.Pages.Admin.MenuItems.IndexModel
 
+
+
 <div class="Container p-3">
     <div class="row pt-4">
         <div class="col-6">
@@ -14,26 +16,30 @@
         </div>
     </div>
     <br /><br />
-    <table class="table table-broadered table-striped" style="width:100%">
+    <table id="DT_load" class="table table-broadered table-striped" style="width:100%">  @*give table the id of DT-load which is defined in menuitem.js*@
         <thead>
             <tr>
+                
                 <th>
-                     Name
+                    Name
                 </th>
                 <th>
-                     Price
+                    Price
                 </th>
                 <th>
                     Category
                 </th>
                 <th>
-                     Food Type
+                    Food Type
                 </th>
-              
                 <th></th>
             </tr>
         </thead>
-      
+       
     </table>
 </div>
+@*include menuitem.js in this index page*@:
+@section Scripts{
+    <script src="~/js/menuitem.js"></script>
+}
 

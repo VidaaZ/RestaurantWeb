@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Pages\Admin\MenuItems\Index.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0-preview.1.23111.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0-preview.1.23111.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0-preview.1.23111.4">
@@ -25,18 +21,7 @@
 
   <ItemGroup>
     <Folder Include="Pages\Customer\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Pages\Admin\MenuItems\Index.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Pages\Admin\MenuItems\Index.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Pages\Admin\MenuItems\Index.cshtml" />
+    <Folder Include="wwwroot\images\menuItems\" />
   </ItemGroup>
 
 </Project>

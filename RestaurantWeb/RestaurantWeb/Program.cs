@@ -29,5 +29,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+app.MapControllers();//for creating an API in razor project to retriev data in data table ,so we should add map controller in program.cs at first
 
 app.Run();
