@@ -75,6 +75,35 @@ namespace RestaurantWeb.Pages.Admin.MenuItems
             else
             {
                 //update
+                var objFromDb = _unitOfWork.MenuItem.GetFirstOrDefault(u => u.Id == MenuItem.Id);
+                if (files.Count > 0)
+                {  //give a name to our new file and make sure each file has unique name
+                    string fileName_new = Guid.NewGuid().ToString();
+                    var uploads = Path.Combine(webRootPath, @"images\menuItems"); //final place where we have to uploads our files
+                                                                                  //make sure files have the same extension:
+                    var extension = Path.GetExtension(files[0].FileName);
+
+                    //give  the old image path:
+                    var oldImagePath = Path.Combine(webRootPath, objFromDb.Image.TrimStart('\\'));
+                    //if you want to update the image you should delete the old image so you should check if there is exist or not:
+                    if (System.IO.File.Exists(oldImagePath))
+                    {
+                        System.IO.File.Delete(oldImagePath);
+                    }
+                    //upload new image into the folder
+
+                    using (var fileStream = new FileStream(Path.Combine(uploads, fileName_new + extension), FileMode.Create))
+                    {
+                        files[0].CopyTo(fileStream);
+                    }
+                    MenuItem.Image = @"\images\menuItems\" + fileName_new + extension;
+                }
+                else
+                {
+                    MenuItem.Image = objFromDb.Image;
+                }
+                _unitOfWork.MenuItem.Update(MenuItem);
+                _unitOfWork.Save();
             }
             return RedirectToPage("./Index");
         }

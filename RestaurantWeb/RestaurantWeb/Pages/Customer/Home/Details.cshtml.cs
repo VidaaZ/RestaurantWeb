@@ -1,0 +1,24 @@
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Restaurant.DataAccess.Repository.IRepository;
+using Restaurant.Models;
+using System.ComponentModel.DataAnnotations;
+
+namespace RestaurantWeb.Pages.Customer.Home
+{
+    public class DetailsModel : PageModel
+    {
+        private readonly IUnitOfWork _unitOfWork;
+        public DetailsModel(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
+        public MenuItem MenuItem { get; set; }
+        [Range(1,100,ErrorMessage ="Please select a count between 1 and 100")]
+        public int Count { get; set; }
+        public void OnGet(int id) //based on this id we retrieve menuitem and pass that in view
+        {
+            MenuItem = _unitOfWork.MenuItem.GetFirstOrDefault(u => u.Id == id, includeProperties: "Category,FoodType");
+        }
+    }
+}

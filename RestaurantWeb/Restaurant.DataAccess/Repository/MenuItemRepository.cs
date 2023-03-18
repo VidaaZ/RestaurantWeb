@@ -16,10 +16,10 @@ namespace Restaurant.DataAccess.Repository
         {
             _db = db;
         }
-        public void Save()
-        {
-            _db.SaveChanges();
-        }
+        //public void Save()
+        //{
+        //    _db.SaveChanges();
+        //}
 
         public void Update(MenuItem menuItem)
         {
@@ -33,7 +33,7 @@ namespace Restaurant.DataAccess.Repository
             {
                 objFromDb.Image = menuItem.Image;
             }
-            _db.Update(menuItem);
+            //_db.Update(menuItem);
 
 
         }

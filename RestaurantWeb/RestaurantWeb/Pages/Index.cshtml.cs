@@ -12,9 +12,13 @@ namespace RestaurantWeb.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
-
+            //we just want to redirect this page to the index page which is created in customer
+            return RedirectToPage("Customer/Home/Index");
         }
+        
+
+
     }
 }
