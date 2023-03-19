@@ -10,3 +10,5 @@ F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\Restaurant.Ut
 F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\refint\Restaurant.Utility.dll
 F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\Restaurant.Utility.pdb
 F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\ref\Restaurant.Utility.dll
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\bin\Debug\net6.0\Restaurant.Utility.runtimeconfig.json
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Utility\obj\Debug\net6.0\Restaurant.Utility.genruntimeconfig.cache

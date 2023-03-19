@@ -1,4 +1,5 @@
 F:\RestaurantWeb\RestaurantWeb\Restaurant.Models\bin\Debug\net6.0\Restaurant.Models.deps.json
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Models\bin\Debug\net6.0\Restaurant.Models.runtimeconfig.json
 F:\RestaurantWeb\RestaurantWeb\Restaurant.Models\bin\Debug\net6.0\Restaurant.Models.dll
 F:\RestaurantWeb\RestaurantWeb\Restaurant.Models\bin\Debug\net6.0\Restaurant.Models.pdb
 F:\RestaurantWeb\RestaurantWeb\Restaurant.Models\obj\Debug\net6.0\Restaurant.Models.csproj.AssemblyReference.cache
@@ -9,4 +10,5 @@ F:\RestaurantWeb\RestaurantWeb\Restaurant.Models\obj\Debug\net6.0\Restaurant.Mod
 F:\RestaurantWeb\RestaurantWeb\Restaurant.Models\obj\Debug\net6.0\Restaurant.Models.dll
 F:\RestaurantWeb\RestaurantWeb\Restaurant.Models\obj\Debug\net6.0\refint\Restaurant.Models.dll
 F:\RestaurantWeb\RestaurantWeb\Restaurant.Models\obj\Debug\net6.0\Restaurant.Models.pdb
+F:\RestaurantWeb\RestaurantWeb\Restaurant.Models\obj\Debug\net6.0\Restaurant.Models.genruntimeconfig.cache
 F:\RestaurantWeb\RestaurantWeb\Restaurant.Models\obj\Debug\net6.0\ref\Restaurant.Models.dll
