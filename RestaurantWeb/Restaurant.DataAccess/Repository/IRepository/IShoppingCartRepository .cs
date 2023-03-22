@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace Restaurant.DataAccess.Repository.IRepository
 {
-    public interface IShoppingCartRepository : IRepository<Category>
+    public interface IShoppingCartRepository : IRepository<ShoppingCart>
     {
-       
-        void Save();
+        
     }
 }

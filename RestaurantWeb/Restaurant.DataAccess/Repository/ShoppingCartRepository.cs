@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Restaurant.DataAccess.Repository
 {
-    public class ShoppingCartRepository : Repository<Category>, IShoppingCartRepository
+    public class ShoppingCartRepository : Repository<ShoppingCart>, IShoppingCartRepository
     {
         private readonly ApplicationDbContext _db;
         public ShoppingCartRepository(ApplicationDbContext db) : base(db)
@@ -17,10 +17,10 @@ namespace Restaurant.DataAccess.Repository
             _db = db;
 
         }
-        public void Save()
-        {
-            _db.SaveChanges();
-        }
+
+       
+
+      
 
         
     }
