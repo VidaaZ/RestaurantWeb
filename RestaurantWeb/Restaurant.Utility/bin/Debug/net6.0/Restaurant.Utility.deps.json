@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.Design": "6.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.15",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.15",
+          "Microsoft.Extensions.Identity.Stores": "6.0.15",
           "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13"
         },

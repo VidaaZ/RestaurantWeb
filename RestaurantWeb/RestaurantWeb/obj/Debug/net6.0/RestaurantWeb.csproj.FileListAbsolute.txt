@@ -282,3 +282,5 @@ F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\obj\Debug\net6.0\refint\RestaurantW
 F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\obj\Debug\net6.0\RestaurantWeb.pdb
 F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\obj\Debug\net6.0\RestaurantWeb.genruntimeconfig.cache
 F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\obj\Debug\net6.0\ref\RestaurantWeb.dll
+F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\bin\Debug\net6.0\Restaurant.Utility.dll
+F:\RestaurantWeb\RestaurantWeb\RestaurantWeb\bin\Debug\net6.0\Restaurant.Utility.pdb

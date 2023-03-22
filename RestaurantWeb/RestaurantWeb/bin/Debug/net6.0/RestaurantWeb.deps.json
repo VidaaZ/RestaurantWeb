@@ -17,7 +17,8 @@
           "Microsoft.Extensions.Identity.Stores": "6.0.15",
           "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13",
-          "Restaurant.DataAccess": "1.0.0"
+          "Restaurant.DataAccess": "1.0.0",
+          "Restaurant.Utility": "1.0.0"
         },
         "runtime": {
           "RestaurantWeb.dll": {}
@@ -2414,6 +2415,20 @@
         "runtime": {
           "Restaurant.Models.dll": {}
         }
+      },
+      "Restaurant.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.15",
+          "Microsoft.AspNetCore.Identity.UI": "6.0.15",
+          "Microsoft.EntityFrameworkCore": "6.0.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.15",
+          "Microsoft.Extensions.Identity.Stores": "6.0.15",
+          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13"
+        },
+        "runtime": {
+          "Restaurant.Utility.dll": {}
+        }
       }
     }
   },
@@ -3689,6 +3704,11 @@
       "sha512": ""
     },
     "Restaurant.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Restaurant.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

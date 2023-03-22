@@ -3718,6 +3718,25 @@
         "runtime": {
           "bin/placeholder/Restaurant.Models.dll": {}
         }
+      },
+      "Restaurant.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.15",
+          "Microsoft.AspNetCore.Identity.UI": "6.0.15",
+          "Microsoft.EntityFrameworkCore": "6.0.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.15",
+          "Microsoft.Extensions.Identity.Stores": "6.0.15",
+          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13"
+        },
+        "compile": {
+          "bin/placeholder/Restaurant.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.Utility.dll": {}
+        }
       }
     }
   },
@@ -10461,6 +10480,11 @@
       "type": "project",
       "path": "../Restaurant.Models/Restaurant.Models.csproj",
       "msbuildProject": "../Restaurant.Models/Restaurant.Models.csproj"
+    },
+    "Restaurant.Utility/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.Utility/Restaurant.Utility.csproj",
+      "msbuildProject": "../Restaurant.Utility/Restaurant.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10474,7 +10498,8 @@
       "Microsoft.Extensions.Identity.Stores >= 6.0.15",
       "Microsoft.Extensions.Logging >= 6.0.2-mauipre.1.22102.15",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13",
-      "Restaurant.DataAccess >= 1.0.0"
+      "Restaurant.DataAccess >= 1.0.0",
+      "Restaurant.Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10506,6 +10531,9 @@
           "projectReferences": {
             "F:\\RestaurantWeb\\RestaurantWeb\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj": {
               "projectPath": "F:\\RestaurantWeb\\RestaurantWeb\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj"
+            },
+            "F:\\RestaurantWeb\\RestaurantWeb\\Restaurant.Utility\\Restaurant.Utility.csproj": {
+              "projectPath": "F:\\RestaurantWeb\\RestaurantWeb\\Restaurant.Utility\\Restaurant.Utility.csproj"
             }
           }
         }
