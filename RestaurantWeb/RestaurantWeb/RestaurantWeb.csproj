@@ -7,12 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\Customer\Cart\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Restaurant.DataAccess\Restaurant.DataAccess.csproj" />
     <ProjectReference Include="..\Restaurant.Utility\Restaurant.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Customer\Cart\" />
     <Folder Include="wwwroot\images\menuItems\" />
   </ItemGroup>
 
@@ -32,6 +35,18 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.15" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.2-mauipre.1.22102.15" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Customer\Cart\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Customer\Cart\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Customer\Cart\Index.cshtml" />
   </ItemGroup>
 
 </Project>

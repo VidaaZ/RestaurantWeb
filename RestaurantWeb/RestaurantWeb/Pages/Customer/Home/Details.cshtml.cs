@@ -21,8 +21,8 @@ namespace RestaurantWeb.Pages.Customer.Home
         public void OnGet(int id) //based on this id we retrieve menuitem and pass that in view
         {   
             //retrive UserId which is logged in our application
-            var claimIdentity = (ClaimsIdentity)User.Identity;
-            var claim = claimIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
 
             ShoppingCart = new()
             {
@@ -35,11 +35,21 @@ namespace RestaurantWeb.Pages.Customer.Home
         }
         public IActionResult OnPost()
         {
-            if (ModelState.IsValid) { 
+            
+            if (ModelState.IsValid) {
+                ShoppingCart shoppingCartFromDb = _unitOfWork.ShoppingCart.GetFirstOrDefault(
+                    filter: u => u.ApplicationUserId == ShoppingCart.ApplicationUserId &&
+                    u.MenuItemId == ShoppingCart.MenuItemId);
+                if (shoppingCartFromDb == null) { 
             
             _unitOfWork.ShoppingCart.Add(ShoppingCart);
             _unitOfWork.Save();
-            return RedirectToPage("Index");
+                }
+                else
+                {
+                    _unitOfWork.ShoppingCart.IncrementCount(shoppingCartFromDb, ShoppingCart.Count);
+                }
+                return RedirectToPage("Index");
             }
             return Page();
 
